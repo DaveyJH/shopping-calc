@@ -1,0 +1,37 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font: 2rem "arial", sans-serif;
+  margin-top: 5rem;
+  background: linear-gradient(to right, #d9531e, #2ab4eb);
+}
+h1 {
+  text-align: center;
+  font-size: 2.7rem;
+}
+form {
+  margin: 0 auto;
+  width: 18rem;
+}
+label {
+  display: inline-block;
+  width: 11.5rem;
+}
+input[type="number"] {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+input[type="submit"] {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 2rem 5rem;
+  width: 8.5rem;
+}
+section {
+  text-align: center;
+  margin: 0 auto;
+}
+span {
+  font-weight: bold;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="shopping.css">
+  <title>Shopping Costs</title>
+</head>
+<body>
+  <h1>Shopping<br>Calculator</h1>
+  <form>
+    <label for="sainsburys">Sainsburys:</label>
+    <input type="number" step=".01" id="sainsburys" value="0">
+    <br>
+    <label for="butchers">Butchers:</label>
+    <input type="number" step=".01" id="butchers" value="0">
+    <br>
+    <label for="waitrose">Waitrose:</label>
+    <input type="number" step=".01" id="waitrose" value="0">
+    <br>
+    <label for="other">Other:</label>
+    <input type="number" step=".01" id="other" value="0">
+    <br>
+    <input type="submit" id="total" value="Total">
+  </form>
+  <section>
+    <p>Total: <span id="calculated-total">?</span></p>
+    <p>Jo Sainsburys: <span id="jo-result">?</span></p>
+    <p>Jo JohnLewis: <span id="jo-mc">?</span></p>
+    <p>Dave Sainsburys: <span id="dave-s-result">?</span></p>
+    <p>Dave JohnLewis: <span id="dave-mc-result">?</span></p>
+  </section>
+  <script src="shop.js"></script>
+</body>
+</html>
